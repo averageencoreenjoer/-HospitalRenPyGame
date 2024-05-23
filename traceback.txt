@@ -1,0 +1,20 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/test/Desktop/RenPyHospitalGame/game/saves/navigation.json.new' -> '/Users/test/Desktop/RenPyHospitalGame/game/saves/navigation.json'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "/Volumes/renpy-8.2.1-sdk/renpy-8.2.1-sdk/renpy/bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "/Volumes/renpy-8.2.1-sdk/renpy-8.2.1-sdk/renpy/main.py", line 582, in main
+    renpy.dump.dump(False)
+  File "/Volumes/renpy-8.2.1-sdk/renpy-8.2.1-sdk/renpy/dump.py", line 262, in dump
+    os.rename(new, filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/test/Desktop/RenPyHospitalGame/game/saves/navigation.json.new' -> '/Users/test/Desktop/RenPyHospitalGame/game/saves/navigation.json'
+
+macOS-10.16-x86_64-i386-64bit x86_64
+Ren'Py 8.2.1.24030407
+RenPyHospitalGame 1.0
+Thu May 16 17:05:33 2024
